@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/photo-1580161880572-57956c4c17b5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-head{
+    text-align: center;
+    padding: 300px;
+    color: white;
+}
+
+.main-head h1{
+    font-size: 60px;
+}
+
+.main-head p{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(#00B4DB, #0083B0);
+    padding: 20px 40px;
+    line-height: 100px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600px;
+    border-radius: 5px;
+}
+
+.countdown-section{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 35px;
+}
+
+.countdown-card {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    
+}
+
+.card{
+    width: 50%;
+    background-color: white;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    padding: 60px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 40px gray;
+}
